@@ -1,0 +1,105 @@
+*{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+}
+body{
+        background: rgb(4, 4, 53);
+        color: white;
+}
+.cont{
+        margin: 12%;
+        width: 80%;
+        max-width: 700px;
+}
+.display{
+        width: 60%;
+        margin-top: 50px;
+         margin-bottom: 30px;
+         background: white;
+         color: #333;
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+         padding: 26px 20px;
+         border-radius: 5px;
+}
+@media (max-width:500px){
+        .display{
+                width: 100%;
+        }
+}
+@media (max-width:450px){
+        .display{
+                width: 100%;
+        }
+        .display img{
+                width: 30px;
+                cursor: pointer;
+                position: relative;
+                right: 70px;
+        }
+        .cont h1 span{
+                font-size: 30px;
+                font-weight: 300;
+        }
+        .display input{
+                width: 250px;
+        }
+}
+/* @media (min-width:350px) and( max-width:400px){
+        .display{
+                width: 100%;
+        }
+        .display img{
+                width: 20px;
+                cursor: pointer;
+                position: relative;
+                right: 50px;
+        }
+        .display input{
+                width: 250px;
+        }
+        .cont h1 span{
+                font-size: 30px;
+                font-weight: 300;
+        }
+        .cont  button{ 
+                font-size: 16px;
+        }      
+} */
+.cont h1{
+        font-size: 45px;
+        font-weight: 500;
+}
+.cont h1 span{
+        color: #019f55;
+        border-bottom: 4px solid #019f55 ;
+        padding-bottom:7px ;
+}
+.display img{
+        width: 30px;
+        cursor: pointer;
+}
+.display  input{
+        border: 0;
+        outline: 0;
+        font-size: 25px;
+}
+.cont button img{
+        width: 28px;
+        margin-right: 10px;
+}
+.cont  button{
+        border: 0;
+        outline: 0;
+        background: #019f55;
+        color: white;
+        font-size: 21px;
+        font-weight: 300;
+        display: flex;
+        align-items: center;
+        padding: 16px 26px;
+        border-radius: 5px;
+        cursor: pointer;
+}
